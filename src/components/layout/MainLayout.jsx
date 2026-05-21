@@ -25,7 +25,7 @@ export default function MainLayout() {
     <>
       <Navbar isScrolled={isScrolled} />
 
-      <main className="pt-24">
+      <main className="pt-16 lg:pt-24">
         <Outlet />
       </main>
     </>

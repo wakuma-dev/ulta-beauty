@@ -3,6 +3,7 @@ import NavMenu from "./NavMenu";
 import Logo from "./Logo";
 import CartIcon from "./CartIcon";
 import SearchIcon from "./SearchIcon";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = memo(function Navbar({ isScrolled }) {
   return (
@@ -13,7 +14,8 @@ const Navbar = memo(function Navbar({ isScrolled }) {
       z-50 backdrop-blur-lg transition-all duration-300
       ${isScrolled ? "shadow-md bg-white/70" : "bg-transparent"}`}
     >
-      <div className="flex items-center gap-8">
+      <div className="flex items-center gap-5 lg:gap-8">
+        <MobileMenu />
         <Logo />
         <NavMenu />
       </div>

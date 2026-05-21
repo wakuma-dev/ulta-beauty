@@ -4,7 +4,7 @@ import useCartStore from "../../../app/store/useCartStore";
 export default function SearchIcon(){
     const { query, setQuery } = useCartStore();
     return(
-    <div className="relative flex items-center border-b border-b-black">
+    <div className="relative hidden lg:flex items-center border-b border-b-black">
         <CiSearch size={20} />
         <input 
           type="text"
