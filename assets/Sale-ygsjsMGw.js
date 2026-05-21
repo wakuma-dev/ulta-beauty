@@ -1,1 +1,0 @@
-import{n as e,t}from"./index-BjbLrVoa.js";e();var n=t(),r=()=>(0,n.jsx)(`div`,{children:`Sale`});export{r as default};
