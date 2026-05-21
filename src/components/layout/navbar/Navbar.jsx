@@ -2,6 +2,7 @@ import React, { memo } from "react";
 import NavMenu from "./NavMenu";
 import Logo from "./Logo";
 import CartIcon from "./CartIcon";
+import SearchIcon from "./SearchIcon";
 
 const Navbar = memo(function Navbar({ isScrolled }) {
   return (
@@ -16,7 +17,10 @@ const Navbar = memo(function Navbar({ isScrolled }) {
         <Logo />
         <NavMenu />
       </div>
-      <CartIcon />
+      <div className="flex items-center gap-4">
+        <SearchIcon />
+        <CartIcon />
+      </div>
     </nav>
   );
 });
