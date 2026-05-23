@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import CartIcon from "./CartIcon";
 import SearchIcon from "./SearchIcon";
 import MobileMenu from "./MobileMenu";
+import AuthIcon from "./AuthIcon";
 
 const Navbar = memo(function Navbar({ isScrolled }) {
   return (
@@ -21,6 +22,7 @@ const Navbar = memo(function Navbar({ isScrolled }) {
       </div>
       <div className="flex items-center gap-4">
         <SearchIcon />
+        <AuthIcon />
         <CartIcon />
       </div>
     </nav>
