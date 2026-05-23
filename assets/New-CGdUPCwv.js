@@ -1,0 +1,1 @@
+import{c as e,o as t}from"./index-CXMqK97i.js";e();var n=t(),r=()=>(0,n.jsx)(`div`,{children:`New`});export{r as default};
